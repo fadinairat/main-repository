@@ -1,7 +1,7 @@
 <?php
 
 echo "HDLDKLFLKDFDF";
-echo "ONLINE CHAGNE";
+echo "ONLINE CHAGNE From Online";
 ?>
 
 <?php echo "string"; ?>
