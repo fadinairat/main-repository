@@ -1,0 +1,362 @@
+body{
+	font-family:"NotesStyle" !important;
+}
+
+
+@font-face
+{
+font-family:"NotesStyle";src:url("../fonts/HelveticaNeue-new/NotesStyle-RegularTf.eot");
+src:url("../fonts/HelveticaNeue-new/NotesStyle-RegularTf.eot?#iefix") format("embedded-opentype"),url("../fonts/HelveticaNeue-new/NotesStyle-RegularTf.woff") format("woff"),url("../fonts/HelveticaNeue-new/NotesStyle-RegularTf.ttf") format("truetype"),url("../fonts/HelveticaNeue-new/NotesStyle-RegularTf.svg#HelveticaNeueLTArabic55Roman") format("svg");
+font-weight:normal;
+font-style:normal;
+}
+
+@font-face
+{
+font-family:"NotesStyle";src:url("../fonts/HelveticaNeue-new/NotesStyle-RegularTf.eot");
+src:url("../fonts/HelveticaNeue-new/NotesStyle-RegularTf.eot?#iefix") format("embedded-opentype"),url("../fonts/HelveticaNeue-new/NotesStyle-RegularTf.woff") format("woff"),url("../fonts/HelveticaNeue-new/NotesStyle-RegularTf.ttf") format("truetype"),url("../fonts/HelveticaNeue-new/NotesStyle-RegularTf.svg#HelveticaNeueLTArabic55Roman") format("svg");
+font-weight:bold;
+}
+
+.description{text-align:left;font-size:17px;}
+.carousel-caption h2 {
+	font-family: "NotesStyle";
+}
+
+a:hover{text-decoration:none;color:#466fc9;}
+
+strong{
+	font-family: "NotesStyle";
+}
+
+.center_container{
+	border:solid 1px #ccc;
+	border-radius:3px;
+	padding-left:0px;
+	
+}
+
+.video_body iframe{
+	width:100%;
+	max-width:800px;
+}
+
+.top_socials{
+float:right;
+margin-right:7px;
+list-style-type: none;
+height: 40px;
+}
+.top_socials li{float:right;display:inline;padding-left:7px;padding-right:7px;}
+
+
+.lang{
+	font-size: 17px;
+	color: brown;
+}
+
+.slider_title{
+position:absolute;top:20%;width:100%;text-align:center;color:white;font-size:2em;font-weight:bold;height:0px;
+}
+
+.footer_nav{
+float:none;
+}
+.footer_nav li{float:right;display:inline;padding-right:15px;padding-left:15px;}
+.footer_nav a{color:#5C5188;font-size:1.7em;font-weight:700;}
+
+.ev_div{
+float:right;
+text-align: right;
+}
+
+@media screen and (max-width: 560px) {
+	.slider_title{font-size:1.3em;}
+	.footer_nav a{color:#5C5188;font-size:1.1em;font-weight:700;}
+	.top_socials{
+		float:none;
+		-webkit-padding-start:0px;
+	}
+	.top_socials li{width:20%;}
+	.ev_div{float:none;text-align: center;margin-top:7px;}
+}
+
+.shadow_div{
+position:absolute;
+top:0px;
+width:100%;
+height:100%;
+transition: background-color 0.5s ease;
+background-color:rgba(195, 131, 143, 0.82);
+cursor:pointer;
+}
+.shadow_div:hover{
+background-color:initial;
+}
+
+.shadow_div_even:hover{
+background-color:initial;
+}
+
+
+.shadow_div_even{
+position:absolute;
+top:0px;
+width:100%;
+height:100%;
+background-color: rgba(84, 78, 127, 0.89);
+cursor:pointer;
+}
+
+.bx_cont_div{
+width:100%;max-height:124px;overflow:hidden;
+}
+
+.big_font{
+	font-size:16px !important;
+}
+
+.slider_title{
+position:absolute;top:20%;width:100%;text-align:center;color:white;font-size:2em;font-weight:bold;height:0px;
+}
+
+.footer_nav{
+float:none;
+}
+.footer_nav li{float:right;display:inline;padding-right:15px;padding-left:15px;}
+.footer_nav a{color:#5C5188;font-size:1.7em;font-weight:700;}
+
+
+.shadow_div{
+position:absolute;
+top:0px;
+width:100%;
+height:100%;
+transition: background-color 0.5s ease;
+background-color:rgba(195, 131, 143, 0.82);
+cursor:pointer;
+}
+.shadow_div:hover{
+background-color:initial;
+}
+
+.shadow_div_even:hover{
+background-color:initial;
+}
+
+
+.shadow_div_even{
+position:absolute;
+top:0px;
+width:100%;
+height:100%;
+background-color: rgba(84, 78, 127, 0.89);
+cursor:pointer;
+}
+
+.bx_cont_div{
+width:100%;max-height:124px;overflow:hidden;
+}
+
+.a_header{
+font-family:"GE Dinar Two Light";
+font-size:24px;
+font-weight:bold;
+color:white;
+line-height:100%;
+text-align:right;
+}
+.e_header{
+font-family:"GE Dinar Two Light";
+font-size:32px;
+font-weight:bold;
+color:white;
+text-align:right;
+}
+.a_lang{
+font-family:"GE Dinar Two Light";
+font-size:15px;
+font-weight:bold;
+color:#c8a501;
+}
+a.a_lang:hover{text-decoration:none;color:#E5E5E5;}
+
+.e_lang{
+font-size:15px;
+font-weight:bold;
+color:#c8a501;
+}
+a.e_lang:hover{text-decoration:none;color:#E5E5E5;}
+
+
+@font-face {
+  font-family: "NotesStyle";
+  src: url('../fonts/gedinar2/GE_SS_Two_Light.otf');
+}
+
+@font-face {
+  font-family: 'GE Dinar Two bold';
+  src: url('../fonts/gedinar2/GE_SS_Two_Bold.otf');
+}
+
+
+
+.ar{
+font-family:GE Dinar Two Light;
+font-size:14px;
+font-weight:normal;
+text-decoration:none;
+color:#333333;
+}
+
+.left_menu{
+text-decoration:none;
+font-size:10px;
+font-weight:bold;
+font-family:GE Dinar Two Light;
+color:#565657;
+}
+a.left_menu:hover{color:#B8272B;}
+
+.sep_div{
+width:95%;
+border-top:dashed #fff 1px;
+}
+.sep_td{
+background-image:url(../images/m_bg1.png);
+}
+
+
+.three_td{
+text-align:left;
+padding-left:10px;
+}
+
+
+.f_title{
+font-size:16px;
+font-weight:bold;
+line-height:160%;
+color:white;
+}
+.footer{
+color:#eaf2f8;
+font-size:14px;
+text-decoration:none;
+}
+
+.footer1{
+color:#333333;
+font-size:12px;
+text-decoration:none;
+}
+
+
+.top_td{
+text-align:center;
+padding-right:10px;
+padding-left:10px;
+}
+td.top_td:hover{}
+
+.text{
+font-weight:normal;
+font-size:17px;
+color:#404040;
+text-align:left;
+text-decoration:none;
+}
+.text img{
+	max-width:100%;
+	
+	margin-left:15px !important;
+	margin-right:15px !important;
+}
+
+.text1{
+font-weight:normal;
+font-size:14px;
+color:#404040;
+padding-top:10px;
+text-decoration:none;
+}
+
+.header{
+font-family:"NotesStyle";
+font-size:17px;
+font-weight:bold;
+color:#FFFFFF;
+text-decoration:none;
+}
+
+.stext{
+font-size:14px;
+text-align:left;
+line-height:160%;
+color: #8a850a;
+text-decoration:none;
+}
+
+.title{
+font-family:"NotesStyle";
+font-size:28px;
+text-align:center;
+font-weight:400;
+line-height:160%;
+color: #8a850a;
+text-decoration:none;
+}
+
+.title1{
+font-family:"NotesStyle";
+font-size:19px;
+font-weight:bold;
+color:#404e4e;
+text-decoration:none;
+}
+.title2{
+font-family:"NotesStyle";
+font-size:18px;
+font-weight:bold;
+color:#404e4e;
+text-decoration:none;
+}
+.title3{
+font-family:"NotesStyle";
+font-size:15px;
+font-weight:bold;
+color:#6E2524;
+text-decoration:none;
+}
+
+.form_title2{
+font-family: "NotesStyle";
+font-size: 16px;
+color:#404e4e;
+text-decoration: none;
+}
+
+.more{
+font-family:"NotesStyle";
+font-size:18px;
+font-weight:bold;
+color:#945b16;
+direction:rtl;
+text-decoration:none;
+}
+a.more:Hover{color:#BC1616}
+
+.footer_row{
+height:199px;
+background-image:url(../images/footer_bg.png);
+background-repeat:repeat-x;
+}
+
+.main_body{
+background-image:url(../images/bg.png);
+background-color:#FEFEFE;
+}
+img
+{
+border:0px;
+}

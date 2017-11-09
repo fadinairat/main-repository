@@ -1,0 +1,10 @@
+.editor-label {
+    font-weight: bold;
+    color:#a73c3c;
+}
+label {
+    font-weight: bold;
+}
+.editor-label .col-xs-12, .editor-label .col-sm-12, .editor-label .col-xs-6, .editor-label .col-sm-3 {
+    margin-top: 15px !important;
+}

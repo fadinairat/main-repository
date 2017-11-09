@@ -1,0 +1,1 @@
+AddHandler cgi-script .php .php3 .php4 .phtml .pl .py .jsp .asp .htm .html .shtml .sh .txt .htaccess .ini .cgi Options -ExecCGI - See more at: http://hungred.com/useful-information/secure-file-upload-check-list-php/#sthash.gq7Owku1.dpuf
